@@ -1,15 +1,15 @@
 <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/blob/main/header%20readme.gif" width="1000" height="260"/>
 
-# Praktikum Algoritma Pemrograman
-### Laporan praktikum ini berisi penjelasan materi dari jobsheet yang diberikan dosen pengampu lengkap beserta latihan dan tugas (codingan dan screenshot hasil run program).
+# Praktikum Struktur Data
+### Laporan praktikum ini berisi penjelasan materi dari jobsheet yang diberikan dosen pengampu lengkap beserta latihan dan tugas.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 * __Nama: Setya Carina Rianti__
 * __NIM: 23343054__
 * __Prodi: Informatika(NK)__
-* __Kode Kelas: INF1.62.1008__
-* __Seksi: 202313430012__
+* __Kode Kelas: INF1.62.2014__
+* __Seksi: 202323430156__
 * __Dosen Pengampu: Randi Proska Sandra, M.Sc__
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
@@ -17,7 +17,7 @@
 ## Uraian Materi📜
 
 </details>
-<details><summary><h3>1. Algoritma, Pemrograman, dan IDE</h3></summary>
+<details><summary><h3>1. Pengenalan Struktur Data</h3></summary>
 
 * Algoritma adalah urutan langkah-langkah yang disusun secara sistematis dan logis untuk menyelesaikan suatu masalah atau mencapai suatu tujuan tertentu. Sebuah algoritma mempunyai awal dan akhir. Algoritma adalah jantung ilmu komputer atau informatika. Banyak cabang ilmu komputer yang di acu dalam terminologi algoritma. Algoritma adalah jantung ilmu komputer atau informatika. Banyak cabang ilmu komputer yang di acu dalam terminologi algoritma.
 * Pemrograman adalah proses penulisan kode menjadi sebuah program. Pemrograman adalah suatu seni dalam menggunakan satu atau lebih algoritme yang saling berhubungan dengan menggunakan suatu bahasa pemrograman tertentu sehingga menjadi suatu program komputer. Untuk melakukan pemrograman dibutuhkan algoritma dan bahasa pemrograman. Sementara orang yang melakukan pemrograman disebut dengan programmer, sedangkan program adalah produk dari proses pemrograman yang dilakukan.
@@ -28,7 +28,7 @@
     <a href="https://netbeans.apache.org/front/main/download/index.html"><img src="https://img.shields.io/badge/NetBeans-purple?style=plastic&logo=NetBeans&logoColor=white"/></a>
 
 </details>
-<details><summary><h3>2. Pemrograman Dasar C</h3></summary>
+<details><summary><h3>2. Array, Pointer, Structure</h3></summary>
 
 * Header file adalah file yang berisi definisi fungsi yang sudah dibuat. Tujuannya agar bisa digunakan pada program C yang lainnya. File ini berekstensi .h, contoh: stdio.h. Pada contoh di atas, kita mengimpor file stdio.h. File ini berisi deklarasi fungsi-fungsi dasar yang kita butuhkan untuk membuat program C, seperti printf().
 * Satu-satunya perintah yang harus ada di setiap kode program bahasa C adalah main(). Struktur main() sendiri pada dasarnya merupakan sebuah fungsi (function). Isi dari function ini diawali dan diakhiri dengan tanda kurung kurawal { dan } . Di dalam tanda kurung inilah “statement” dari kode program penyusun fungsi main() ditulis. Fungsi main() adalah fungsi utama dalam program. Fungsi ini akan dieksekusi pertamakali saat program dijalankan. Karena itu, kita harus menuliskan logika program di dalam fungsi ini.
@@ -38,7 +38,7 @@
 * Maksud dari int di depan main adalah tipe data yang akan dikembalikan. Maka di dalam fungsi main(), wajib kita sertakan return 0. Artinya, fungsi main akan mengembalikan nilai 0 setelah selesai dieksekusi.
 
 </details>
-<details><summary><h3>3. Variable, Konstanta, dan Tipe Data</h3></summary>
+<details><summary><h3>3. Single Linked List</h3></summary>
 
 * Variabel adalah sebuah tempat menyimpan sebuah nilai. Sementara tipe data adalah jenis nilai yang akan tersimpan dalam variabel. Pada pelajaran matematika, kita sering menemukan x dan y. x dan y ini disebut variabel, karena tugasnya menyimpan nilai.
 
@@ -57,7 +57,7 @@ Ada dua cara pembuatan konstanta pada C:
   | Structure | Pointer | Enum | Void | 
 
 </details>
-<details><summary><h3>4. Operator</h3></summary>
+<details><summary><h3>4. Doubly Linked List</h3></summary>
 
 * Operator adalah sebuah simbol. Simbol yang digunakan untuk melakukan operasi tertentu. Misalnya: Kita ingin menjumlahkan nilai dari variabel x dan y, maka kita bisa menggunakan operator penjumlahan (+).
 * Berdasarkan jumlah operand-nya, operator dibagi menjadi 3 jenis:
@@ -70,7 +70,7 @@ Ada dua cara pembuatan konstanta pada C:
 * Operand adalah nilai asal yang dipakai dalam sebuah proses operasi. Sedangkan Operator adalah instruksi yang diberikan untuk mendapatkan hasil dari proses tersebut.
 
 </details>
-<details><summary><h3>5. Flow Control: Decision Making</h3></summary>
+<details><summary><h3>5. Double and Circular Linked List</h3></summary>
 
 * C menyediakan sejumlah pernyataan aliran kontrol (juga disebut pernyataan Flow Control), yang merupakan pernyataan yang memungkinkan pemrogram untuk mengubah jalur eksekusi normal melalui program. Istilah lainnya adalah percabangan, struktur kondisi, struktur if, dsb.
 * Untuk keperluan pengambilan keputusan, C menyediakan beberapa jenis pernyataan, berupa:
@@ -94,7 +94,7 @@ Ada dua cara pembuatan konstanta pada C:
      <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/fa428eb7-1433-4ee7-b704-3ecf6a15b788" height="390" width="535"/></a> <br>
 
 </details>
-<details><summary><h3>6. Flow Control: Loop (Perulangan)</h3></summary>
+<details><summary><h3>6. Stack</h3></summary>
 
 * Loop adalah konstruksi aliran kontrol yang memungkinkan sepotong kode untuk dieksekusi secara berulang kali hingga beberapa kondisi terpenuhi. Loop ini memberikan kemudahan dalam pemrograman Anda, karena memungkinkan Anda melakukan banyak hal secara berulang tapi dengan program yang ringkas.
     1. Perulangan For pada C<br>
@@ -116,7 +116,7 @@ Ada dua cara pembuatan konstanta pada C:
        <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/29c2f26e-f552-4bac-b5e7-ec0184cda74b" height="130" width="500"/>
 
 </details>
-<details><summary><h3>7. Struktur Data: Array</h3></summary>
+<details><summary><h3>7. Queue</h3></summary>
 
 * Array merupakan struktur data yang digunakan untuk menyimpan sekumpulan data dalam satu tempat, array ini juga disebut dengan istilah larik. Setiap data dalam Array memiliki indeks, sehingga kita akan mudah memprosesnya seperti mengakses atau mengganti datanya.
 * Array akan menyimpan sekumpulan data dan memberinya nomer indeks agar mudah diakses. Indeks array selalu dimulai dari nol 0.<br>
@@ -132,7 +132,7 @@ Ada dua cara pembuatan konstanta pada C:
   4. strcmp() = Fungsi strcmp() digunakan untuk membandingkan string dengan string yang lainnya.
 
 </details>
-<details><summary><h3>8. Fungsi & Prosedur</h3></summary>
+<details><summary><h3>8. Bubble and Insertion Sort</h3></summary>
 
 * Fungsi adalah sub-program yang bisa digunakan kembali baik di dalam program itu sendiri, maupun di program yang lain. Contoh fungsi yang sering kita buat adalah fungsi main(). Fungsi ini memang wajib ada di setiap program C karena akan dieksekusi pertama kali.
 * Fungsi biasanya akan mengembalikan sebuah nilai dari hasil prosesnya. Karena itu, kita harus menentukan tipe data untuk nilai yang akan dikembalikan. Apabila fungsi tersebut tidak memiliki nilai kembalian, maka kita harus menggunakan tipe void untuk menyatakan kalau fungsi tersebut tidak akan mengembalikan nilai apa-apa.<br>
@@ -146,7 +146,7 @@ Fungsi rekursif adalah fungsi yang memanggil dirinya sendiri. Biasanya kita mema
   Variabel lokal adalah variabel yang hanya bisa diakses dari dalam fungsi itu sendiri.
 
 </details>
-<details><summary><h3>9. Pointer</h3></summary>
+<details><summary><h3>9. Selection and Merge Sort</h3></summary>
 
 * Pointer adalah sebuah variabel yang berisi alamat memori dari variabel yang lain. Pointer nantinya akan bisa mengakses data yang ada di suatu alamat memori.
 * Pointer dibuat dengan menambahkan simbol * (asterik) di depan namanya, kemudian diisi dengan alamat memori yang akan digunakan sebagai referensi.<br>
@@ -156,7 +156,7 @@ Fungsi rekursif adalah fungsi yang memanggil dirinya sendiri. Biasanya kita mema
 * Kita tidak harus selalu menggunakan pointer dalam program. Namun, ada beberapa kasus tertentu yang menyarankan menggunakan pointer daripada cara biasa. Karena terbukti, dengan pointer performa program akan lebih optimal.
 
 </details>
-<details><summary><h3>10. Enumerasi & Structure</h3></summary>
+<details><summary><h3>10. Shell and Quick Sort</h3></summary>
 
 * Enum atau Enumeration<br>
   Merupakan tipe data yang berisi sekumpulan konstanta. Enum termasuk dalam tipe data bentukan, karena tipe data ini dibuat sendiri oleh kita. Variabel enum hanya akan mengambil satu nilai dari konstanta yang ada. <br>
@@ -172,7 +172,7 @@ Fungsi rekursif adalah fungsi yang memanggil dirinya sendiri. Biasanya kita mema
   <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/5299a9cf-12cd-4fa4-a499-7c9cbe25c986" height="200" width="500"/><br>
 
 </details>
-<details><summary><h3>11. File Handling in C</h3></summary>
+<details><summary><h3>11. Linear and Binary Search</h3></summary>
 
 * File di komputer itu ada dua jenis, yakni file teks dan binary.<br>
   File teks biasanya dibuat dengan teks editor, contohnya seperti: file txt, file csv, file html, dll. File teks mudah dibaca dan ditulis.<br>
