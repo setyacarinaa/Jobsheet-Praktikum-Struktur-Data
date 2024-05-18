@@ -1,4 +1,4 @@
-<img src="![header readme](https://github.com/setyacarinaa/Jobsheet-Praktikum-Struktur-Data/assets/145129875/8296a1b8-177c-4a44-8e4f-ad43bea32d54)" width="1000" height="260"/>
+<img src="[!(https://github.com/setyacarinaa/Jobsheet-Praktikum-Struktur-Data/blob/main/asset/header%20readme.gif)" width="1000" height="260"/>
 
 # Praktikum Struktur Data
 ### Laporan praktikum ini berisi penjelasan materi dari jobsheet yang diberikan dosen pengampu lengkap beserta latihan dan tugas.
