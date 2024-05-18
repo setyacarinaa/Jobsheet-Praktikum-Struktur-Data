@@ -1,4 +1,4 @@
-//<img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/blob/main/header%20readme.gif" width="1000" height="260"/>
+<img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/blob/main/header%20readme.gif" width="1000" height="260"/>
 
 # Praktikum Algoritma Pemrograman
 ### Laporan praktikum ini berisi penjelasan materi dari jobsheet yang diberikan dosen pengampu lengkap beserta latihan dan tugas (codingan dan screenshot hasil run program).
