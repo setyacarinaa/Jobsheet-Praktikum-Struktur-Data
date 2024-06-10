@@ -1,6 +1,6 @@
 <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Struktur-Data/blob/main/asset/header%20readme.gif" width="1000" height="260"/>
 
-# Praktikum Struktur Data
+# Praktikum Struktur Data <img src="https://www.thedataschool.com.au/wp-content/uploads/2022/01/logo-data-structures-algorithms.png" width="34" height="34">
 ### Laporan praktikum ini berisi penjelasan materi dari jobsheet yang diberikan dosen pengampu lengkap beserta latihan dan tugas.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
