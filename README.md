@@ -19,9 +19,18 @@
 </details>
 <details><summary><h3>1. Pengenalan Struktur Data</h3></summary>
 
-* Algoritma adalah urutan langkah-langkah yang disusun secara sistematis dan logis untuk menyelesaikan suatu masalah atau mencapai suatu tujuan tertentu. Sebuah algoritma mempunyai awal dan akhir. Algoritma adalah jantung ilmu komputer atau informatika. Banyak cabang ilmu komputer yang di acu dalam terminologi algoritma. Algoritma adalah jantung ilmu komputer atau informatika. Banyak cabang ilmu komputer yang di acu dalam terminologi algoritma.
-* Pemrograman adalah proses penulisan kode menjadi sebuah program. Pemrograman adalah suatu seni dalam menggunakan satu atau lebih algoritme yang saling berhubungan dengan menggunakan suatu bahasa pemrograman tertentu sehingga menjadi suatu program komputer. Untuk melakukan pemrograman dibutuhkan algoritma dan bahasa pemrograman. Sementara orang yang melakukan pemrograman disebut dengan programmer, sedangkan program adalah produk dari proses pemrograman yang dilakukan.
-* IDE atau Integrated Development Environment adalah software atau perangkat lunak yang digunakan oleh programmer untuk membuat sebuah program komputer atau sebagai tempat pengembangan aplikasi. Berbeda dengan text editor seperti notepad, IDE merupakan text editor yang memiliki compiler dan debugger sekaligus sehingga memungkinkan sebuah program dapat ditulis, diuji, dan dijalankan dalam satu aplikasi. IDE memiliki banyak fitur yang mendukung proses pemrograman. Contohnya adalah DevC++, Microsoft Visual Studio, CodeBlocks, NetBeans, dll.
+Pemrograman struktur data menggunakan berbagai macam konsep untuk penyimpanan dan pengaturan data. Dalam pemrograman C, hal ini sering melibatkan penggunaan variable Array, Struktur, dan Linked list. Struktur data adalah cara penyusunan, penyimpanan, dan pengaturan data di dalam komputer untuk penggunaan yang efisien. Data sendiri adalah representasi dari fakta dunia nyata dalam bentuk tulisan, suara, gambar, atau simbol.
+
+Beberapa struktur data standar yang digunakan dalam bidang informatika meliputi:
+
+- List Linear (Linked List) dan variasinya
+- Multilist
+- Stack (Tumpukan)
+- Queue (Antrian)
+- Tree (Pohon)
+- Graph (Graf)
+
+Setiap struktur data memiliki kegunaan dan aplikasi yang berbeda, sesuai dengan kebutuhan dalam pengembangan program.
     <a href="https://www.embarcadero.com/free-tools/dev-cpp/free-download"><img src="https://img.shields.io/badge/DevC++-purple?style=plastic&logo=DevC++&logoColor=white"/></a>
     <a href="https://code.visualstudio.com/download"><img src="https://img.shields.io/badge/VSCode-purple?style=plastic&logo=VSCode&logoColor=white"/></a>
     <a href="https://sourceforge.net/projects/codeblocks/"><img src="https://img.shields.io/badge/CodeBlocks-purple?style=plastic&logo=CodeBlocks&logoColor=white"/></a>
@@ -30,156 +39,216 @@
 </details>
 <details><summary><h3>2. Array, Pointer, Structure</h3></summary>
 
-* Header file adalah file yang berisi definisi fungsi yang sudah dibuat. Tujuannya agar bisa digunakan pada program C yang lainnya. File ini berekstensi .h, contoh: stdio.h. Pada contoh di atas, kita mengimpor file stdio.h. File ini berisi deklarasi fungsi-fungsi dasar yang kita butuhkan untuk membuat program C, seperti printf().
-* Satu-satunya perintah yang harus ada di setiap kode program bahasa C adalah main(). Struktur main() sendiri pada dasarnya merupakan sebuah fungsi (function). Isi dari function ini diawali dan diakhiri dengan tanda kurung kurawal { dan } . Di dalam tanda kurung inilah “statement” dari kode program penyusun fungsi main() ditulis. Fungsi main() adalah fungsi utama dalam program. Fungsi ini akan dieksekusi pertamakali saat program dijalankan. Karena itu, kita harus menuliskan logika program di dalam fungsi ini.
-  
-  <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/674382d5-8ef8-442a-b0af-3eed6935b115" height="120" width="350"/>
+Tentu, berikut adalah parafrase dari teks yang Anda berikan:
 
-* Maksud dari int di depan main adalah tipe data yang akan dikembalikan. Maka di dalam fungsi main(), wajib kita sertakan return 0. Artinya, fungsi main akan mengembalikan nilai 0 setelah selesai dieksekusi.
+- **Array**: Kumpulan nilai dengan tipe data yang sama, diakses melalui indeks dimulai dari 0. Digunakan untuk menyimpan data terstruktur seperti bilangan, string, atau objek.
+
+- **Pointer**: Variabel yang menyimpan alamat memory sebagai nilainya. Berbeda dengan variabel biasa yang menyimpan nilai tertentu, pointer menyimpan alamat. Digunakan tanda (*) untuk mendeklarasikan variabel pointer, dan & untuk mendapatkan alamat memori serta * untuk mendapatkan isi atau nilai dari alamat yang ditunjuk pointer.
+
+- **Structure**: Kumpulan variabel dengan tipe data yang berbeda, dikelompokkan dalam satu objek dengan nama tertentu. Digunakan '.' untuk mengakses anggota struktur dan '->' untuk akses menggunakan pointer pada struktur.
 
 </details>
 <details><summary><h3>3. Single Linked List</h3></summary>
 
-* Variabel adalah sebuah tempat menyimpan sebuah nilai. Sementara tipe data adalah jenis nilai yang akan tersimpan dalam variabel. Pada pelajaran matematika, kita sering menemukan x dan y. x dan y ini disebut variabel, karena tugasnya menyimpan nilai.
+Single linked list adalah struktur data linear di mana simpul-simpulnya terhubung menggunakan pointer. Setiap simpul memiliki dua bagian utama: data yang disimpan di dalamnya, dan pointer yang menunjuk ke simpul berikutnya dalam daftar. Pada simpul terakhir, pointer tersebut menunjuk ke nilai null, menandakan akhir dari linked list.
 
-  <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/94438c0e-36cf-49c3-ba40-1cb76fb68ede" height="60" width="650"/>
+Simpul atau node dalam linked list merupakan objek yang berisi alamat serta data yang disimpan di dalamnya. Penggunaan alokasi memori memungkinkan pembuatan buffer dan array secara dinamis, di mana ruang memori dialokasikan saat program dieksekusi sesuai kebutuhan program.
 
-* Konstanta adalah sebuah nilai tetapan. Bisa juga dibilang sebagai variabel yang tidak bisa diubah nilainya.
-Ada dua cara pembuatan konstanta pada C:
-1. Menggunakan #define <br>
-<img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/538d18cb-41c3-4576-8c13-818cd3795dc5" height="130" width="390"/></a> <br> 
-3. Menggunakan const <br>
-<img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/4b13069e-1a56-421f-9d45-bbd273e1be4d" height="130" width="390"/></a> <br>
+Dalam konteks penggunaan alokasi memori, perintah sizeof() digunakan untuk mendapatkan ukuran objek dalam byte sebelum melakukan alokasi. Sedangkan perintah malloc() adalah fungsi standar dalam C yang digunakan untuk mengalokasikan memori sesuai dengan jumlah byte yang diberikan sebagai parameter. Fungsi malloc() mengembalikan pointer yang menunjuk ke buffer yang dialokasikan, dan jika alokasi memori gagal, fungsi tersebut mengembalikan pointer NULL.
 
-* Menurut Wikipedia Tipe data atau kadang disingkat dengan ‘tipe’ saja adalah sebuah pengelompokan data untuk memberitahu compiler atau interpreter bagaimana programmer ingin mengolah data tersebut. Ada delapan jenis tipe data pada C:</a> <br>
-  | Char | Integer | Float | Array | 
-  | :---: | :---: | :---: | :---: |
-  | Structure | Pointer | Enum | Void | 
+Linked list tunggal adalah struktur data di mana setiap simpul atau node memiliki alamat yang saling terhubung. Setiap simpul dapat menyimpan data berupa karakter, bilangan bulat, string, atau tipe data lainnya. Tujuan utama dari linked list adalah untuk mengatur dan menghubungkan data secara fleksibel, dengan kemampuan memutuskan urutan data serta menyambungkannya kembali sesuai kebutuhan.
 
 </details>
 <details><summary><h3>4. Doubly Linked List</h3></summary>
 
-* Operator adalah sebuah simbol. Simbol yang digunakan untuk melakukan operasi tertentu. Misalnya: Kita ingin menjumlahkan nilai dari variabel x dan y, maka kita bisa menggunakan operator penjumlahan (+).
-* Berdasarkan jumlah operand-nya, operator dibagi menjadi 3 jenis:
-  1. Operator Unary, mempunyai 1 operand
-  2. Operator Binary, mempunyai 2 operand
-  3. Operator Ternary, mempunyai 3 operand
-  
-  <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/780771af-1c36-436f-bb1a-1e5668c59fa8" height="230" width="500"/></a> <br>
+Doubly linked list (DLL) merupakan struktur data yang memiliki pointer tambahan, yaitu pointer sebelumnya, selain dari pointer berikutnya dan data yang ada dalam daftar tunggal. Mirip dengan single linked list, DLL juga memiliki kepala (head) dan ekor (tail), tetapi perbedaannya terletak pada kemampuan DLL untuk bergerak maju dan mundur, karena setiap simpul memiliki pointer ke simpul sebelumnya dan berikutnya.
 
-* Operand adalah nilai asal yang dipakai dalam sebuah proses operasi. Sedangkan Operator adalah instruksi yang diberikan untuk mendapatkan hasil dari proses tersebut.
+Kelebihan dari doubly linked list dibandingkan dengan single linked list adalah:
+
+- Dapat bergerak maju dan mundur, memungkinkan operasi penghapusan dan penambahan simpul yang lebih efisien.
+- Operasi penghapusan lebih sederhana karena dapat langsung menggunakan pointer ke simpul yang akan dihapus.
+- Proses penambahan simpul lebih efisien karena dapat langsung memanipulasi pointer sebelumnya dan berikutnya.
+
+Namun, kekurangan dari doubly linked list adalah:
+
+- Membutuhkan ruang memori tambahan untuk menyimpan pointer sebelumnya pada setiap simpul.
+- Setiap operasi yang dilakukan harus memperhatikan dan memanipulasi pointer sebelumnya.
+
+Proses penambahan simpul dalam doubly linked list meliputi:
+
+- Penambahan simpul di depan.
+- Penambahan setelah simpul tertentu.
+- Penambahan di ekor.
+- Penambahan sebelum simpul tertentu.
 
 </details>
 <details><summary><h3>5. Double and Circular Linked List</h3></summary>
 
-* C menyediakan sejumlah pernyataan aliran kontrol (juga disebut pernyataan Flow Control), yang merupakan pernyataan yang memungkinkan pemrogram untuk mengubah jalur eksekusi normal melalui program. Istilah lainnya adalah percabangan, struktur kondisi, struktur if, dsb.
-* Untuk keperluan pengambilan keputusan, C menyediakan beberapa jenis pernyataan, berupa:
-  1. Pernyataan if<br>
-     Percabangan if merupakan percabangan yang hanya memiliki satu blok pilihan saat kondisi bernilai benar.<br>
-     <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/4ce9fc7b-eb42-4ab4-be28-015605b22bd7" height="80" width="500"/>
-  2. Pernyataan if else<br>
-     Percabangan if/else merupakan percabangan yang memiliki dua blok pilihan. Blok pilihan pertama untuk kondisi benar, dan pilihan kedua untuk kondisi salah (else).<br>
-     <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/f1d2191b-819d-4a80-875d-5d7290604cc8" height="270" width="500"/></a> <br>
-  3. Pernyataan if else if<br>
-     Percabangan if/else/if merupakan percabangan yang memiliki lebih dari dua blok pilihan.<br>
-     <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/44ffa0b6-aaf8-428d-ba54-cd41dc4af783" height="390" width="535"/></a> <br>
-  4. Pernyataan Switch Case<br>
-     Percabangan switch case adalah bentuk lain dari percabangan if/else/if.<br>
-     <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/dff28771-ce95-4e05-b568-a56c5452ed1b" height="240" width="500"/></a> <br>
-  5. Percabangan Operator Ternary<br>
-     Percabangan menggunakan opreator ternary merupakan bentuk lain dari percabangan if/else. Bisa dibilang: Bentuk singkatnya dari if/else. Operator ternary juga dikenal dengan sebutan operator kondisi (conditional operator).<br>
-     <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/f6c7fadf-2f45-45c8-9b33-4a272ccfa831" height="70" width="500"/>
-  6. Percabangan Bersarang<br>
-     Semua bentuk blok percabangan di atas dapat kita buat di dalam percabangan yang lainnya. Ini disebut dengan percabangan bersarang atau nested if.<br>
-     <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/fa428eb7-1433-4ee7-b704-3ecf6a15b788" height="390" width="535"/></a> <br>
+Double linked list adalah struktur data di mana setiap elemen terhubung dengan dua pointer dalam satu node. Struktur ini memungkinkan list untuk dilintasi baik ke depan (next) maupun ke belakang (prev). Setiap elemen dalam double linked list terdiri dari tiga bagian: data (info), pointer next yang menunjuk ke elemen berikutnya, dan pointer prev yang menunjuk ke elemen sebelumnya. Head dari double linked list ditandai dengan pointer prev dari elemen pertama yang menunjuk ke NULL, sedangkan tail ditandai dengan pointer next dari elemen terakhir yang menunjuk ke NULL.
+
+Untuk melintasi kembali double linked list, digunakan pointer prev dari elemen yang berurutan dari tail ke head. Double linked list memiliki fleksibilitas lebih tinggi daripada single linked list dalam perpindahan pada list.
+
+Circular linked list, di sisi lain, adalah bentuk lain dari linked list yang memungkinkan elemen-elemen untuk dilewati secara fleksibel. Circular list bisa berupa single linked list atau double linked list, namun tidak memiliki tail. Pada circular list, pointer next dari elemen terakhir menunjuk ke elemen pertama daripada NULL. Pada double linked circular list, pointer prev dari elemen pertama menunjuk ke elemen terakhir.
 
 </details>
 <details><summary><h3>6. Stack</h3></summary>
 
-* Loop adalah konstruksi aliran kontrol yang memungkinkan sepotong kode untuk dieksekusi secara berulang kali hingga beberapa kondisi terpenuhi. Loop ini memberikan kemudahan dalam pemrograman Anda, karena memungkinkan Anda melakukan banyak hal secara berulang tapi dengan program yang ringkas.
-    1. Perulangan For pada C<br>
-       Perulangan for merupakan perulangan yang termasuk dalam couted loop, karena sudah jelas berapa kali ia akan mengulang.<br>
-       <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/e92f57eb-f7af-4eef-80d3-1329f7314552" height="70" width="500"/><br>
-       Yang perlu diperhatikan adalah kondisi yang ada di dalam kurung setelah kata for. Kondisi ini akan menentukan:<br>
-       • Hitungan akan dimulai dari 0 (i = 0);<br>
-       • Hitungannya sampai berapa? Sampai i < 10;<br>
-       • Lalu di setiap perulangan i akan bertambah +1 (i++).<br>
-       Variabel i pada perulangan for berfungsi untuk menyimpan nilai hitungan.
-    2. Perulangan While pada C<br>
-       Perulangan while merupakan perulangan yang termasuk dalam perulangan uncounted loop. Perulangan while juga dapat menjadi perulangan yang counted loop dengan memberikan counter di dalamnya.<br>
-       <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/315fb7e8-78ea-4757-b3e8-e6f73dfb9e37" height="150" width="500"/>
-    3. Perulangan Do While pada C<br>
-       Perulangan do while sama seperti perulangan while. Perbedaanya: Perulangan do while akan melakukan perulangan sebanyak 1 kali terlebih dahulu, lalu mengecek kondisi yang ada di dalam kurung while.<br>
-       <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/ace9ec73-0a16-41fc-b6dd-7d08a44345ab" height="100" width="500"/>
-    4. Perulangan Bersarang (Nested Loop)<br>
-       Di dalam blok perulangan, kita juga dapat membuat perulangan. Ini disebut dengan nested loop atau perulangan bersarang atau perulangan di dalam perualangan.<br>
-       <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/29c2f26e-f552-4bac-b5e7-ec0184cda74b" height="130" width="500"/>
+Stack adalah struktur data di mana elemen-elemen data disusun secara vertikal, di mana elemen terbaru diletakkan di atas elemen yang sudah ada. Prinsip yang digunakan dalam stack adalah Last In First Out (LIFO), di mana elemen terakhir yang dimasukkan menjadi elemen pertama yang diambil. Dalam operasi pada stack, penambahan elemen disebut push, sedangkan pengambilan elemen dari posisi teratas disebut pop.
+
+Pada penyajian stack dengan menggunakan array, hal ini bisa dilakukan tetapi dengan catatan bahwa ukuran array bersifat statis sementara jumlah elemen dalam stack bersifat dinamis. Hal ini berarti kita harus memastikan bahwa jumlah elemen dalam stack tidak melebihi ukuran maksimal array untuk menghindari overflow. Ada dua bentuk penyajian stack menggunakan array, yaitu Single stack dan Double stack.
+
+Operasi yang umum dilakukan pada stack meliputi:
+
+- Push: Menambahkan elemen baru ke stack, membuatnya menjadi elemen teratas.
+- Pop: Menghapus elemen teratas dari stack.
+- Peek: Melihat elemen teratas tanpa menghapusnya.
+- isFull: Memeriksa apakah stack sudah penuh sebelum menambahkan elemen baru.
+- isEmpty: Memeriksa apakah stack kosong sebelum melakukan operasi pada elemennya.
+- Clear: Mengosongkan seluruh isi stack.
 
 </details>
 <details><summary><h3>7. Queue</h3></summary>
 
-* Array merupakan struktur data yang digunakan untuk menyimpan sekumpulan data dalam satu tempat, array ini juga disebut dengan istilah larik. Setiap data dalam Array memiliki indeks, sehingga kita akan mudah memprosesnya seperti mengakses atau mengganti datanya.
-* Array akan menyimpan sekumpulan data dan memberinya nomer indeks agar mudah diakses. Indeks array selalu dimulai dari nol 0.<br>
-  <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/13977cec-3959-41e2-b55d-c452ae860c60" height="130" width="500"/>
-* Array Multidimensi<br>
-  Array yang kita buat pada contoh-contoh program di atas adalah array satu dimensi. Array bisa dibuat dua dimensi bahkan lebih. Array multidimensi biasanya digunakan untuk membuat matriks.<br>
-  <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/f29b82f9-1e33-4989-a3c2-0c7167215088" height="130" width="500"/>
-* String<br>
-  String.h merupakan library yang menyimpan fungsi-fungsi yang digunakan untuk menangani string ataupun substring.<br>
-  1. strcpy() = Fungsi ini digunakan untuk mengkopi string pada variabel 2 ke variabel 1.
-  2. strcat() = Fungsi strcat() digunakan untuk menambahkan string dari belakang.
-  3. strlen() = Fungsi strlen() digunakan untuk menghitung panjang string.
-  4. strcmp() = Fungsi strcmp() digunakan untuk membandingkan string dengan string yang lainnya.
+Queue adalah struktur data yang sangat berguna dalam pemrograman struktur data, dengan prinsip utama FIFO (First In First Out), di mana item yang pertama masuk akan menjadi item yang pertama keluar. Pada queue, proses penambahan item disebut "enqueue" dan penghapusan item disebut "dequeue".
+
+Spesifikasi dari queue, yang juga dikenal sebagai Abstract Data Type (ADT), meliputi:
+
+- Enqueue: Menambahkan elemen ke ujung belakang antrian.
+- Dequeue: Menghapus elemen dari ujung depan antrian.
+- IsEmpty: Memeriksa apakah antrian kosong.
+- IsFull: Memeriksa apakah antrian penuh.
+- Peek: Mendapatkan nilai dari ujung depan antrian tanpa menghapusnya.
+
+Cara kerja queue melibatkan dua pointer, yaitu FRONT dan REAR, yang digunakan untuk melacak elemen pertama dan terakhir dalam antrian. Pada awalnya, nilai FRONT dan REAR diatur ke -1. Saat melakukan enqueing, nilai indeks REAR ditingkatkan dan elemen baru ditempatkan di posisi yang ditunjuk oleh REAR. Pada dequeueing, nilai yang ditunjuk oleh FRONT dikembalikan dan nilai FRONT ditingkatkan.
+
+Sebelum melakukan enqueing, dilakukan pemeriksaan apakah antrian sudah penuh. Sebelum dequeueing, dilakukan pemeriksaan apakah antrian sudah kosong. Ketika elemen pertama dibuat, nilai FRONT diatur ke 0, dan saat elemen terakhir dihapus, nilai FRONT dan REAR direset ke -1.
 
 </details>
 <details><summary><h3>8. Bubble and Insertion Sort</h3></summary>
 
-* Fungsi adalah sub-program yang bisa digunakan kembali baik di dalam program itu sendiri, maupun di program yang lain. Contoh fungsi yang sering kita buat adalah fungsi main(). Fungsi ini memang wajib ada di setiap program C karena akan dieksekusi pertama kali.
-* Fungsi biasanya akan mengembalikan sebuah nilai dari hasil prosesnya. Karena itu, kita harus menentukan tipe data untuk nilai yang akan dikembalikan. Apabila fungsi tersebut tidak memiliki nilai kembalian, maka kita harus menggunakan tipe void untuk menyatakan kalau fungsi tersebut tidak akan mengembalikan nilai apa-apa.<br>
-  <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/02a5035d-fdff-4f76-bee7-37cd32d705de" height="70" width="500"/><br>
-* Parameter adalah variabel yang menyimpan nilai untuk diproses di dalam fungsi. Parameter akan menyimpan nilai yang akan diinputkan ke dalam fungsi. Contoh, "Petani Kode" adalah nilai yang akan kita berikan ke parameter.<br>
-  <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/17914bb5-bd08-45d6-9aaf-dc9dcc6eb2c0" height="45" width="500"/><br>
-* Fungsi Rekursif pada C<br>
-Fungsi rekursif adalah fungsi yang memanggil dirinya sendiri. Biasanya kita memanggil fungsi pada fungsi main atau fungsi yang lainnya. Namun, pada fungsi rekursif, fungsi itu akan memanggil dirinya sendiri di dalam tubuh fungsi.
-* Variabel Lokal & Variabel Global<br>
-  Variabel global adalah variabel yang bisa diakses dari semua fungsi.
-  Variabel lokal adalah variabel yang hanya bisa diakses dari dalam fungsi itu sendiri.
+Pengurutan data merujuk pada proses menyusun data dalam urutan tertentu sesuai dengan aturan yang ditetapkan, seperti dari nilai terkecil ke terbesar untuk bilangan atau dari A-Z untuk string. Data yang telah diurutkan memudahkan pembacaan dan pemahaman data dalam sebuah laporan atau aplikasi komputer.
+
+Terdapat beberapa teknik pengurutan data yang terkenal, antara lain:
+
+1. Bubble sort: Algoritma pengurutan yang melakukan pertukaran data secara berulang dengan tetangga terdekatnya hingga data terurut.
+2. Insertion sort: Algoritma yang mirip dengan cara kita mengurutkan kartu di tangan, dengan meletakkan data pada tempat yang sesuai pada setiap iterasi pengurutan.
+
+Kedua teknik ini merupakan cara pengurutan dasar yang umum digunakan dalam pemrosesan data.
 
 </details>
 <details><summary><h3>9. Selection and Merge Sort</h3></summary>
 
-* Pointer adalah sebuah variabel yang berisi alamat memori dari variabel yang lain. Pointer nantinya akan bisa mengakses data yang ada di suatu alamat memori.
-* Pointer dibuat dengan menambahkan simbol * (asterik) di depan namanya, kemudian diisi dengan alamat memori yang akan digunakan sebagai referensi.<br>
-  <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/31feedc0-a854-4eff-9686-852f82e64be7" height="45" width="500"/><br>
-* Alamat memori pointer adalah alamat memori yang digunakan untuk menyimpan pointer. Sedangkan alamat referensi adalah alamat yang akan menjadi referensi dari pointer.
-* Zaman dulu, memori komputer itu sangat terbatas. Saat mengelola struktur data kompleks seperti data pada array, linked list, tree, dan sebagainya. sering kali memakan banyak memori. Oleh sebab itu, diciptakanlah pointer agar mudah membuat struktur data tersebut, dan tentunya lebih hemat memori.
-* Kita tidak harus selalu menggunakan pointer dalam program. Namun, ada beberapa kasus tertentu yang menyarankan menggunakan pointer daripada cara biasa. Karena terbukti, dengan pointer performa program akan lebih optimal.
+Selection sort merupakan algoritma pengurutan yang mencari elemen terkecil dalam sebuah list yang belum terurut pada setiap iterasi, dan menempatkannya di posisi paling depan dari list data. Cara kerja selection sort dapat dijelaskan sebagai berikut:
+
+1. Tentukan elemen pertama dari list sebagai elemen "minimum".
+2. Bandingkan elemen minimum dengan elemen kedua. Jika elemen kedua lebih kecil dari elemen minimum, maka elemen kedua dianggap sebagai minimum.
+3. Lanjutkan proses perbandingan minimum dengan elemen-elemen selanjutnya hingga elemen terakhir.
+4. Setelah selesai satu iterasi, elemen minimum ditempatkan di posisi paling depan dari list data.
+5. Proses ini diulang kembali untuk elemen-elemen yang belum terurut, dengan menggeser indeks awal pada setiap iterasi.
+
+Sementara itu, merge sort adalah teknik pengurutan yang mengadopsi strategi "bagi dan gabung" (divide and conquer). Langkah-langkah dalam merge sort meliputi:
+
+1. Memecah data menjadi sub bagian yang lebih kecil dengan jumlah yang sama.
+2. Mengurutkan setiap sub bagian secara terpisah.
+3. Menggabungkan kembali sub bagian yang telah terurut menjadi satu list data yang terurut secara keseluruhan.
+
+Strategi Divide and Conquer digunakan untuk memecahkan masalah utama dengan membaginya menjadi sub masalah yang lebih kecil, menyelesaikan setiap sub masalah, dan kemudian menggabungkan solusi sub masalah menjadi solusi untuk masalah utama.
 
 </details>
 <details><summary><h3>10. Shell and Quick Sort</h3></summary>
 
-* Enum atau Enumeration<br>
-  Merupakan tipe data yang berisi sekumpulan konstanta. Enum termasuk dalam tipe data bentukan, karena tipe data ini dibuat sendiri oleh kita. Variabel enum hanya akan mengambil satu nilai dari konstanta yang ada. <br>
-  <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/2e4233bc-ce91-4fe6-a987-4270feba217e" height="95" width="500"/><br>
-* Structure atau struct<br>
-  Adalah kumpulan dari beberapa variabel dengan beragam tipe data yang dibungkus dalam satu varabel. Struct juga dikenal dengan records dalam bahasa pemrograman lain seperti Pascal.<br>
-  <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/8fa3a54b-b07a-458b-8d10-64a2939fa625" height="100" width="500"/><br>
-* Menggunakan typedef pada Struct<br>
-  Kata kunci typedef adalah kata kunci untuk mendefinisikan tipe data baru. Kita bisa menggunakan kata kunci ini di depan struct untuk menyatakannya sebagai tipe data baru.<br>
-  <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/70d4439b-1209-466f-a282-4699e0c2bad1" height="200" width="500"/><br>
-* Struct Bersarang<br>
-  Struct dapat dibuat bersarang (nested). Bersarang artinya ada struct di dalam struct.<br>
-  <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/5299a9cf-12cd-4fa4-a499-7c9cbe25c986" height="200" width="500"/><br>
+Shell sort adalah algoritma pengurutan yang menggunakan jarak interval untuk membandingkan dan mengurutkan elemen-elemen dalam sebuah array. Prinsip kerjanya mirip dengan insertion sort, namun dengan interval yang dapat diatur. Interval ini semakin kecil setiap kali iterasi pengurutan dilakukan.
+
+Beberapa macam formula urutan yang digunakan dalam Shell sort antara lain:
+
+- Urutan asli Shell: N/2, N/4, ..., 1
+- Urutan Knuth: 1, 4, 13, ..., (3k-1)/2
+- Urutan Sedgewick: 1, 8, 23, 77, 281, 1073, 4293, 16577, ..., 4j+1+3.2j+1
+
+Cara kerja Shell sort meliputi langkah-langkah berikut:
+
+1. Urutkan array yang ada.
+2. Gunakan formula interval Shell (seperti N/2, N/4, ... 1) untuk menentukan interval yang akan digunakan dalam algoritma.
+3. Pada fase pertama, bandingkan dan tukar elemen dengan jarak interval yang ditentukan.
+4. Lakukan pengurutan dengan interval yang semakin kecil setiap pengulangan, hingga mencapai interval 1 di mana elemen-elemen diposisikan dengan urutan yang benar.
+
+Shell sort digunakan saat diperlukan pengurutan dengan jarak pertukaran elemen yang lebih kecil dibandingkan dengan insertion sort, terutama saat elemen-elemen yang berdekatan memiliki jarak yang jauh.
+
+Quick sort, di sisi lain, adalah algoritma pengurutan yang juga menggunakan strategi divide and conquer. Quick sort memilih sebuah elemen sebagai pivot, kemudian memisahkan array berdasarkan pivot tersebut. Terdapat beberapa versi dalam memilih pivot, seperti selalu memilih elemen pertama, terakhir, acak, atau tengah sebagai pivot.
+
+Kunci dari proses quick sort adalah fungsi partisi, di mana array dipartisi berdasarkan pivot sehingga elemen-elemen yang lebih kecil dari pivot ditempatkan sebelum pivot, dan elemen-elemen yang lebih besar ditempatkan setelah pivot.
 
 </details>
 <details><summary><h3>11. Linear and Binary Search</h3></summary>
 
-* File di komputer itu ada dua jenis, yakni file teks dan binary.<br>
-  File teks biasanya dibuat dengan teks editor, contohnya seperti: file txt, file csv, file html, dll. File teks mudah dibaca dan ditulis.<br>
-  Sedangkan file binary adalah file yang tersimpan dalam bentuk biner (0 & 1). Contohnya seperti: File exe dan file bin. File binary sulit dibaca, namun dapat menyimpan data lebih banyak dan aman.
-1. Fungsi fopen() akan membuka file sesuai dengan mode yang kita berikan. Mode r artinya read atau baca saja. Selain mode r ada juga mode yang lain.
-   * Fungsi fopen() akan menghasilkan sebuah pointer yang menunjuk ke alamat memori dari file yang akan dibuka, karena itulah kita membutuhkan pointer untuk mengaksesnya.<br>
-     <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/045180f6-956e-4bbc-b8fc-230de7e2d29b" height="130" width="500"/><br>
-2. Fungsi fgets() akan membaca isi file yang ditunjuk oleh pointer fptr, kemudian hasilnya akan disimpan ke dalam variabel buff.<br>
-   * <img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Algoritma-Pemrograman/assets/145129875/a591129b-f11b-4843-8eec-15e1890c16c8" height="40" width="500"/><br>
-3. Fungsi fputs() akan menulis teks ke dalam file yang sedang dibuka.
+Algoritma penelusuran adalah suatu metode yang menerima suatu nilai kunci dan dengan langkah-langkah tertentu akan mencari rekaman yang memiliki nilai kunci tersebut. Setelah proses penelusuran dilakukan, hasilnya dapat berupa rekaman yang ditemukan atau tidak ditemukan.
+
+Ada dua teknik penelusuran yang umum digunakan, yaitu penelusuran sekuensial (linear search) dan penelusuran biner (binary search). Perbedaan utama antara kedua teknik ini terletak pada keadaan data yang digunakan. Penelusuran biner digunakan ketika data sudah dalam keadaan terurut, sedangkan penelusuran sekuensial digunakan untuk data dalam keadaan acak atau tidak terurut.
+
+Penelusuran sekuensial:
+
+- Penelusuran dimulai dari elemen pertama data, kemudian berlanjut dengan menaikkan indeks data.
+- Jika ditemukan data yang sama dengan kunci pencarian, proses penelusuran dihentikan dan nilai pengembalian diberikan berupa "true".
+- Jika sampai indeks terakhir data tidak menemukan data yang sesuai, nilai pengembalian diberikan berupa "false".
+
+Algoritma penelusuran sekuensial dapat dituliskan sebagai berikut:
+
+```
+i <- 0
+ketemu <- false
+Selama (tidak ketemu) dan (i <= N)
+    Jika(data[i] = x) maka ketemu <- true, jika tidak i <- i + 1
+Jika(ketemu) maka i adalah indeks dari data yang dicari, jika tidak data tidak ditemukan.
+```
+
+Penelusuran biner:
+
+- Data diambil dari posisi 1 hingga posisi akhir.
+- Posisi data tengah dicari dengan rumus (posisi awal + posisi akhir) / 2.
+- Data yang dicari dibandingkan dengan data yang berada di posisi tengah untuk menentukan arah pencarian selanjutnya.
+- Jika data lebih besar, proses penelusuran dilanjutkan dengan mencari di sebelah kanan data tengah. Jika lebih kecil, dilanjutkan dengan mencari di sebelah kiri data tengah.
+- Jika data yang dicari sama dengan data tengah, pencarian dihentikan karena data ditemukan.
+
+Syarat utama untuk menggunakan penelusuran biner adalah data harus sudah dalam keadaan terurut. Algoritma penelusuran biner membantu mengurangi jumlah langkah penelusuran yang dibutuhkan untuk menemukan data.
+
+</details>
+<details><summary><h3>12. Tree</h3></summary>
+
+Traversal atau melintasi sebuah pohon data/tree berarti mengunjungi semua simpul yang ada pada pohon tersebut. Ini bisa dilakukan untuk berbagai tujuan, seperti menambah nilai semua data pada pohon atau mencari nilai tertinggi di dalamnya. Untuk melakukan operasi-operasi semacam itu, perlu mengunjungi setiap simpul dari pohon data.
+
+Struktur data linear seperti array, stack/tumpukan, queues/antrian, dan LinkedList hanya memiliki satu cara untuk membaca data. Tapi struktur data yang bentuknya hirarkis seperti tree/pohon dapat dilintasi dengan berbagai cara.
+
+Tujuan dari melintasi dan mendata setiap simpul/node adalah:
+
+1. Mengunjungi semua node/simpul di dalam subtree.
+2. Mengunjungi root node atau node paling atas.
+3. Mengunjungi node yang ada di subtree kanan.
+
+Berdasarkan urutan tersebut, terdapat tiga cara melintasi tree:
+
+1. Inorder Traversal: Langkah-langkahnya adalah mengunjungi semua nodes/simpul di sebelah kiri subtree, kemudian mengunjungi root node, dan terakhir mengunjungi semua simpul di subtree kanan.
+2. Preorder Traversal: Langkah-langkahnya adalah mengunjungi root node terlebih dahulu, kemudian mengunjungi semua node di subtree kiri, dan terakhir mengunjungi semua node di subtree kanan.
+3. Postorder Traversal: Langkah-langkahnya adalah mengunjungi semua node di subtree kiri, kemudian mengunjungi semua node di subtree kanan, dan terakhir mengunjungi root node.
+
+Dengan menggunakan salah satu dari tiga cara ini, kita dapat melintasi dan melakukan operasi-operasi yang diperlukan pada tree/pohon data.
+
+</details>
+<details><summary><h3>13. Graphs</h3></summary>
+
+Depth First Search atau Depth First Traversal adalah algoritma pencarian rekursif yang digunakan untuk mengunjungi semua titik/simpul pada sebuah graf atau pohon simpul.
+
+Algoritma DFS mengoperasikan dua kategori untuk setiap titik pada graf:
+
+1. Sudah Dikunjungi (Visited)
+2. Belum Dikunjungi (Not Visited)
+
+Tujuan dari algoritma ini adalah untuk menandai setiap titik/vertex yang telah dikunjungi sambil menghindari titik yang telah dikunjungi.
+
+Cara kerja algoritma DFS dapat dijelaskan sebagai berikut:
+
+1. Dimulai dengan meletakkan salah satu titik graf di atas sebuah tumpukan.
+2. Ambil titik paling atas dari tumpukan dan tambahkan ke daftar titik yang telah dikunjungi.
+3. Buat daftar titik yang bertetangga dengan titik tersebut. Tambahkan yang belum dikunjungi ke tumpukan.
+4. Ulangi langkah 2 dan 3 sampai tumpukan menjadi kosong.
+
+Dengan demikian, algoritma DFS memastikan semua titik dalam graf terhubung telah dikunjungi secara rekursif.
