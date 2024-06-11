@@ -39,8 +39,6 @@ Setiap struktur data memiliki kegunaan dan aplikasi yang berbeda, sesuai dengan 
 </details>
 <details><summary><h3>2. Array, Pointer, Structure</h3></summary>
 
-Tentu, berikut adalah parafrase dari teks yang Anda berikan:
-
 - **Array**: Kumpulan nilai dengan tipe data yang sama, diakses melalui indeks dimulai dari 0. Digunakan untuk menyimpan data terstruktur seperti bilangan, string, atau objek.
 
 - **Pointer**: Variabel yang menyimpan alamat memory sebagai nilainya. Berbeda dengan variabel biasa yang menyimpan nilai tertentu, pointer menyimpan alamat. Digunakan tanda (*) untuk mendeklarasikan variabel pointer, dan & untuk mendapatkan alamat memori serta * untuk mendapatkan isi atau nilai dari alamat yang ditunjuk pointer.
