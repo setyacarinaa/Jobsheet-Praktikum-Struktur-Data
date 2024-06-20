@@ -18,6 +18,7 @@
 
 </details>
 <details><summary><h3>1. Pengenalan Struktur Data</h3></summary>
+<img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Struktur-Data/blob/main/asset/data%20structure.gif" width="350"/>
 
 Pemrograman struktur data menggunakan berbagai macam konsep untuk penyimpanan dan pengaturan data. Dalam pemrograman C, hal ini sering melibatkan penggunaan variable Array, Struktur, dan Linked list. Struktur data adalah cara penyusunan, penyimpanan, dan pengaturan data di dalam komputer untuk penggunaan yang efisien. Data sendiri adalah representasi dari fakta dunia nyata dalam bentuk tulisan, suara, gambar, atau simbol.
 
@@ -38,6 +39,7 @@ Setiap struktur data memiliki kegunaan dan aplikasi yang berbeda, sesuai dengan 
 
 </details>
 <details><summary><h3>2. Array, Pointer, Structure</h3></summary>
+<img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Struktur-Data/blob/main/asset/pointer.gif" width="350"/>
 
 - **Array**: Kumpulan nilai dengan tipe data yang sama, diakses melalui indeks dimulai dari 0. Digunakan untuk menyimpan data terstruktur seperti bilangan, string, atau objek.
 
@@ -47,6 +49,7 @@ Setiap struktur data memiliki kegunaan dan aplikasi yang berbeda, sesuai dengan 
 
 </details>
 <details><summary><h3>3. Single Linked List</h3></summary>
+<img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Struktur-Data/blob/main/asset/linked%20list.gif" width="350"/>
 
 Single linked list adalah struktur data linear di mana simpul-simpulnya terhubung menggunakan pointer. Setiap simpul memiliki dua bagian utama: data yang disimpan di dalamnya, dan pointer yang menunjuk ke simpul berikutnya dalam daftar. Pada simpul terakhir, pointer tersebut menunjuk ke nilai null, menandakan akhir dari linked list.
 
@@ -58,6 +61,7 @@ Linked list tunggal adalah struktur data di mana setiap simpul atau node memilik
 
 </details>
 <details><summary><h3>4. Doubly Linked List</h3></summary>
+<img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Struktur-Data/blob/main/asset/doubly%20linked%20list.gif" width="350"/>
 
 Doubly linked list (DLL) merupakan struktur data yang memiliki pointer tambahan, yaitu pointer sebelumnya, selain dari pointer berikutnya dan data yang ada dalam daftar tunggal. Mirip dengan single linked list, DLL juga memiliki kepala (head) dan ekor (tail), tetapi perbedaannya terletak pada kemampuan DLL untuk bergerak maju dan mundur, karena setiap simpul memiliki pointer ke simpul sebelumnya dan berikutnya.
 
@@ -90,6 +94,7 @@ Circular linked list, di sisi lain, adalah bentuk lain dari linked list yang mem
 
 </details>
 <details><summary><h3>6. Stack</h3></summary>
+<img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Struktur-Data/blob/main/asset/stack.gif" width="350"/>
 
 Stack adalah struktur data di mana elemen-elemen data disusun secara vertikal, di mana elemen terbaru diletakkan di atas elemen yang sudah ada. Prinsip yang digunakan dalam stack adalah Last In First Out (LIFO), di mana elemen terakhir yang dimasukkan menjadi elemen pertama yang diambil. Dalam operasi pada stack, penambahan elemen disebut push, sedangkan pengambilan elemen dari posisi teratas disebut pop.
 
@@ -106,6 +111,7 @@ Operasi yang umum dilakukan pada stack meliputi:
 
 </details>
 <details><summary><h3>7. Queue</h3></summary>
+<img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Struktur-Data/blob/main/asset/queue.gif" width="350"/>
 
 Queue adalah struktur data yang sangat berguna dalam pemrograman struktur data, dengan prinsip utama FIFO (First In First Out), di mana item yang pertama masuk akan menjadi item yang pertama keluar. Pada queue, proses penambahan item disebut "enqueue" dan penghapusan item disebut "dequeue".
 
@@ -123,6 +129,8 @@ Sebelum melakukan enqueing, dilakukan pemeriksaan apakah antrian sudah penuh. Se
 
 </details>
 <details><summary><h3>8. Bubble and Insertion Sort</h3></summary>
+<img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Struktur-Data/blob/main/asset/bubble%20sort.gif" width="350"/>
+<img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Struktur-Data/blob/main/asset/insertion-sort.gif" width="350"/>
 
 Pengurutan data merujuk pada proses menyusun data dalam urutan tertentu sesuai dengan aturan yang ditetapkan, seperti dari nilai terkecil ke terbesar untuk bilangan atau dari A-Z untuk string. Data yang telah diurutkan memudahkan pembacaan dan pemahaman data dalam sebuah laporan atau aplikasi komputer.
 
@@ -135,6 +143,7 @@ Kedua teknik ini merupakan cara pengurutan dasar yang umum digunakan dalam pemro
 
 </details>
 <details><summary><h3>9. Selection and Merge Sort</h3></summary>
+<img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Struktur-Data/blob/main/asset/merge%20sort.gif" width="350"/>
 
 Selection sort merupakan algoritma pengurutan yang mencari elemen terkecil dalam sebuah list yang belum terurut pada setiap iterasi, dan menempatkannya di posisi paling depan dari list data. Cara kerja selection sort dapat dijelaskan sebagai berikut:
 
@@ -178,6 +187,7 @@ Kunci dari proses quick sort adalah fungsi partisi, di mana array dipartisi berd
 
 </details>
 <details><summary><h3>11. Linear and Binary Search</h3></summary>
+<img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Struktur-Data/blob/main/asset/linear%20and%20binary%20search.gif" width="350"/>
 
 Algoritma penelusuran adalah suatu metode yang menerima suatu nilai kunci dan dengan langkah-langkah tertentu akan mencari rekaman yang memiliki nilai kunci tersebut. Setelah proses penelusuran dilakukan, hasilnya dapat berupa rekaman yang ditemukan atau tidak ditemukan.
 
@@ -211,6 +221,7 @@ Syarat utama untuk menggunakan penelusuran biner adalah data harus sudah dalam k
 
 </details>
 <details><summary><h3>12. Tree</h3></summary>
+<img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Struktur-Data/blob/main/asset/tree.gif" width="350"/>
 
 Traversal atau melintasi sebuah pohon data/tree berarti mengunjungi semua simpul yang ada pada pohon tersebut. Ini bisa dilakukan untuk berbagai tujuan, seperti menambah nilai semua data pada pohon atau mencari nilai tertinggi di dalamnya. Untuk melakukan operasi-operasi semacam itu, perlu mengunjungi setiap simpul dari pohon data.
 
@@ -232,6 +243,7 @@ Dengan menggunakan salah satu dari tiga cara ini, kita dapat melintasi dan melak
 
 </details>
 <details><summary><h3>13. Graphs</h3></summary>
+<img src="https://github.com/setyacarinaa/Jobsheet-Praktikum-Struktur-Data/blob/main/asset/graph.gif" width="350"/>
 
 Depth First Search atau Depth First Traversal adalah algoritma pencarian rekursif yang digunakan untuk mengunjungi semua titik/simpul pada sebuah graf atau pohon simpul.
 
